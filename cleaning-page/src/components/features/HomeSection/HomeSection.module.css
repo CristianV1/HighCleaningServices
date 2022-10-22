@@ -1,0 +1,50 @@
+.home{
+    position: relative;
+    height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    max-width:100%;
+}
+
+.backgroundStyles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 50;
+    background-color: #00000028;
+}
+
+.imageContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    overflow: hidden;
+}
+
+.imageContainer img{
+    filter: blur(1px);
+    width: 100%;
+    height: 100%;
+}
+
+.textContainer{
+    position: absolute;
+    z-index: 200;
+    left: 1.2em;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 2.9em;
+    font-weight: bold;
+}
+.textContainer span{
+    text-shadow: 2px 2px #000;
+}
+
+.textContainer span:last-child{
+    margin-top: 30px;
+}
