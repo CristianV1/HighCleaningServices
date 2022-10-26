@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,6 +8,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  font-family: 'Oxygen', sans-serif;
+
 }
 
 body,html{
@@ -27,4 +31,34 @@ code {
 
 li{
   list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #45b8fe;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #53b6f3;
+}
+
+:root {
+  --lightColor: #45A29E;
+  
+  --lightesColor:#ffffff;
+  --greyColor:#c5c6c7;
+  --googleColor:rgb(243 244 246 /1);
+  --darkColor:#1F2833;
+  --darkestColor:#0B0C10;
+  
 }
