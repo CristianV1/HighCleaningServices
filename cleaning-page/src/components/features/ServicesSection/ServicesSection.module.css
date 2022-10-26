@@ -1,0 +1,36 @@
+.sectionContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-color: var(--lightesColor);
+}
+
+.grid{
+    padding: 3em 1.5em ;
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 100% 50% 50%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    color: var(--lightColor);
+}
+
+.grid p{
+    color: var(--darkestColor);
+    max-width: 85%;
+    font-size: 1.1em;
+}
+
+.grid > div > h3{
+    font-size: 2em;
+}
+
+.grid > div h4{
+    font-size: 1.5em;
+}
+
+.grid_child_1{
+    grid-row: 1 / 4;
+}

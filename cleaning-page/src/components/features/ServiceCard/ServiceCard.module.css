@@ -16,7 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #45b8fe;
+    /*color: #45b8fe;*/
+    color:var(--lightColor);
     font-size: 1.5em;
     font-weight: bold;
     width: 100%;

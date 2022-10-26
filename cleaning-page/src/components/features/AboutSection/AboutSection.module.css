@@ -1,0 +1,26 @@
+.sectionContainer{
+    position: relative;
+    height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    max-width:100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightColor);
+    color: var(--lightesColor);
+    font-size: 2em;
+}
+
+.sectionContainer >div{
+    width: 80%;
+}
+
+.sectionContainer > div > h4{
+    font-size: 1.4em;
+}
+
+.sectionContainer > div > span{
+}
+
+
