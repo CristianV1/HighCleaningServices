@@ -1,5 +1,8 @@
 import React from 'react'
-import image from "../../assets/woman-cleaning-house.jpg"
+import image from "../../assets/cleaningphoto.jpg"
+import image2 from '../../assets/clean2.jpg'
+import image3 from '../../assets/clean3.jpeg'
+
 import styles from "./HomeSection.module.css"
 
 const HomeSection = () => {
@@ -7,12 +10,15 @@ const HomeSection = () => {
     <div className={styles.home}>
         <div className={styles.backgroundStyles}></div>
         <div className={styles.imageContainer}>
-            <img src={image}/>
+          <div className={styles.slider}>
+            <img  src={image}/>
+            <img src={image2}/>
+            <img src={image3}/>
+          </div>
         </div>
         <div className={styles.textContainer}>
-            <span>Want to clean your house </span>
-            <span>But doesnt know who can?</span>
-            <span>Contact us!</span>
+            <span>Provide the best cleaning service, our top priority </span>
+            <span>Contact us today and get a free quote! </span>
         </div>
     </div>
   )

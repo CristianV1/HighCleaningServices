@@ -1,7 +1,7 @@
 .home{
     position: relative;
-    height: 100vh;
-    max-height: 100%;
+    height: 50vh;
+    max-height: 50%;
     width: 100vw;
     max-width:100%;
 }
@@ -11,21 +11,39 @@
     height: 100%;
     position: absolute;
     z-index: 50;
-    background-color: #00000028;
+    background-color: #0000007c;
 }
 
 .imageContainer{
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit:contain;
+    object-fit:scale-down;
     overflow: hidden;
 }
 
-.imageContainer img{
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.slider img:first-child{
+    animation: slide 15s infinite;
+}
+
+.slider img{
     filter: blur(1px);
     width: 100%;
     height: 100%;
+    flex: 0 0 100%;
+    display: inline-block;
+}
+
+.imageContainer {
+
 }
 
 .textContainer{
@@ -33,10 +51,12 @@
     z-index: 200;
     left: 1.2em;
     top: 50%;
+    width: 100%;
+    text-align: center;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     color: #fff;
     font-size: 2.9em;
     font-weight: bold;
@@ -48,3 +68,22 @@
 .textContainer span:last-child{
     margin-top: 30px;
 }
+
+
+@keyframes slide {
+    0% {
+      margin-left: 0%;
+    }
+
+    35%{
+      margin-left: -100%;
+    }
+  
+    70% {
+      margin-left: -200%;
+    }
+
+    99%{
+      margin-left: 0%;
+    }
+  }

@@ -9,7 +9,7 @@
     align-items: center;
     background-color: var(--lightColor);
     color: var(--lightesColor);
-    font-size: 2em;
+    font-size: var(--sectionLittleFontSize);
 }
 
 .sectionContainer >div{
@@ -17,7 +17,7 @@
 }
 
 .sectionContainer > div > h4{
-    font-size: 1.4em;
+    font-size: var(--sectionBigFontSize);
 }
 
 .sectionContainer > div > span{

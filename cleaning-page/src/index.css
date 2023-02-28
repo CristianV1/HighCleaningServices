@@ -60,5 +60,8 @@ li{
   --googleColor:rgb(243 244 246 /1);
   --darkColor:#1F2833;
   --darkestColor:#0B0C10;
-  
+  --lightestTextColor:#333333;
+
+  --sectionLittleFontSize: 1.4rem;
+  --sectionBigFontSize:  3.4rem;
 }

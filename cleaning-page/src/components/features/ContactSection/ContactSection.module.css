@@ -1,0 +1,26 @@
+.sectionContainer{
+    position: relative;
+    height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    max-width:100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightesColor);
+    color: var(--lightColor);
+    
+}
+
+
+.textContainer{
+    width: 80%;
+}
+
+.textContainer h3{
+    font-size: var(--sectionBigFontSize);
+}
+
+.textContainer p{
+    font-size: var(--sectionLittleFontSize);
+}

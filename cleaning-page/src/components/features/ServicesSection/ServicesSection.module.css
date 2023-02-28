@@ -5,6 +5,32 @@
     background-color: var(--lightesColor);
 }
 
+.textContainer{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    width: 80%;
+}
+
+.text h3{
+    
+    padding: 0.2em 1em ;
+    font-size: var(--sectionBigFontSize);
+    color: var(--lightColor);
+}
+
+.text p{
+    font-size: var(--sectionLittleFontSize);
+    color: var(--lightestTextColor);
+}
+
+/*
+
 .grid{
     padding: 3em 1.5em ;
     display: grid;
@@ -34,3 +60,5 @@
 .grid_child_1{
     grid-row: 1 / 4;
 }
+
+*/
